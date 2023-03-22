@@ -1,0 +1,71 @@
+.App{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 5px; 
+}
+
+.home{
+  /* display: inline-block; */
+  /* width: 70vw; */
+  height: 100vh;
+  padding: 20px;
+  margin-top:10px ;
+}
+
+.cart-header{
+  display: flex;
+  justify-content: space-between;
+  background-color: #ccc;
+  position: fixed;
+  width: calc(30vw - 20px);
+}
+
+.cart{
+  /* display: inline-block; */
+  width: 30vw;
+  position: fixed;
+  right: 0;
+  background-color: #ccc;
+  height: calc(100vh - 20px); 
+  margin: 10px;
+  overflow: auto;
+}
+
+.img-container{
+  height: 80px;
+  width: 100px;
+}
+
+.img-container > img{
+  /* max-width: '100%'; */
+  height: 100%;
+  width: 100%;
+}
+
+.qty-container{ 
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.qty-container > p{
+   display: inline-block;
+   padding: 10px;
+}
+
+.qty-container button{
+  padding: 5px 8px;
+}
+
+.cart-container{
+  border: 1px solid white;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  margin: 5px;
+  padding: 5px;
+}
